@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-container {
+    width: 700px;
+    height: 1100px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.upper-container {
+    /* background: url('/security-guard.jpg'); */
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+.upper-container .image2{
+    margin-top: -50px;
+}
+.image-container {
+    box-sizing: border-box;
+    width: 200px;
+    clip-path: circle();
+    padding: 5px;
+    transform: translate(250px, -100px);
+}
+
+.middle-container {
+    height: 280px;
+    padding-top: 20px;
+    margin-top: -78px;
+}
+
+.middle-container .i2 {
+    float: right;
+
+    font-size: 20px;
+    margin-top: -78px;
+}
+
+.middle-container .i1 {
+
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.middle-container h2,
+p {
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+.middle-container h2 {
+    font-size: 30px;
+    color: cornflowerblue;
+
+}
+
+.middle-container p {
+    margin-top: -10px;
+    color: rgba(128, 128, 128, 0.788);
+    font-size: 20px;
+    color: black;
+
+}
+
+.lower-container button {
+    font-size: 26px;
+    margin-left: 2px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.596);
+    outline: none;
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin-top: 45px;
+
+}
+
+.lower-container button i {
+    color: purple;
+    margin-right: 18px;
+
+}
+
+.lower-container .row1 {
+    width: calc(100% / 2);
+    float: left;
+    font-size: 37px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.lower-container .row2 {
+    color: #7499C6;
+    border-bottom: 5px solid #7499C6;
+
+}
+
+.basic-info {
+    padding-top: 30px;
+}
+
+.inform {
+
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 10%;
+    margin-top: 25px;
+}
+
+.inform i {
+    float: left;
+    padding-right: 15px;
+    color: purple;
+}
+
+.inform p {
+    margin-top: -5px;
+    text-align: left;
+}
+
+.social-icon-list {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.social-icon-list ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.social-icon-list ul li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    /* border-color: black; */
+    margin: 0px 10px;
+}
+
+.social-icon-list ul li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+
+.social-icon-list ul li a i {
+    line-height: 60px;
+}
+
+.social-icon-list ul li:nth-child(1) {
+    background-color: #cd201f;
+}
+
+.social-icon-list ul li:nth-child(2) {
+    background-color: #25D366;
+}
+
+.social-icon-list ul li:nth-child(3) {
+    background-color: #3b5999;
+}
+
+.social-icon-list ul li:nth-child(4) {
+    background-color: #55acee;
+}
+
+.social-icon-list ul li:nth-child(5) {
+    background-color: #FFFC00;
+}
+
+.social-icon-list ul li:nth-child(6) {
+    background-color: #e4405f;
+}
+
+.social-icon-list ul li:nth-child(7) {
+    background-color: #0077B5;
+}
+
+.footer1 {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.11);
+    margin-top: 55px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.116);
+
+}
+
+.footer1 .fimg {
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 6px;
+
+}
+
+.footer1 span {
+    margin-left: 1px;
+    /* margin-top: 31px; */
+    padding-top: 37px;
+}
+
+.footer1 .fas {
+    font-weight: 900;
+}
+
+.footer1 h3 {
+    margin-left: -30px;
+    padding-left: 27px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer1 .fimg1 {
+    width: 50px;
+    height: 30px;
+    padding-top: 6px;
+    float: left;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+
+.footer1 .fimg1 i {
+    padding-left: 25px;
+
+}
+
+.footer1 .fimg1 .sp {
+    padding-left: 25px;
+}
+
+.footer1 .fimg1 .sp1 {
+    padding-left: 50px;
+}
+
+.footer1 .fimg1 .sp1 i {
+    padding-left: 15px;
+}
+
+.footer1 .fimg1 .sp2 {
+    padding-left: 55px;
+}
+
+.footer1 .fimg1 .sp2 h3 {
+    padding-right: 50px;
+}
