@@ -3,6 +3,9 @@ body {
     padding: 0;
     background: #f1f1f1;
     font-family: 'Lato', sans-serif;
+    background: url('../image/tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-container {
@@ -15,6 +18,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 1px 10px 1px #000;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
 }
 
 .upper-container {
@@ -40,6 +44,7 @@ body {
     height: 280px;
     padding-top: 20px;
     margin-top: -78px;
+    
 }
 
 .middle-container .i2 {
